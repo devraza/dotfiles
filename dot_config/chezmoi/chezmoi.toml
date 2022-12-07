@@ -1,7 +1,6 @@
 encryption = "gpg"
 [gpg]
 	symmetric = true
-	passphrase = true
 
 [git]
 	autoCommit = true
