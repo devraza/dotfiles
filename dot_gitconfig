@@ -1,0 +1,19 @@
+[user]
+	name = Muhammad Nauman Raza
+	signingkey = A9A36C429C9CAE31
+	email = thedevraza@proton.me
+
+[commit]
+	gpgsign = true
+
+[core]
+	editor = 'emacs'
+
+[init]
+	defaultBranch = main
+
+[push]
+	autoSetupRemote = true
+
+[pull]
+	rebase = false
