@@ -1,0 +1,47 @@
+! Emacs settings
+emacs.font: Iosevka-11
+
+! DPI & Font Rendering
+Xft.dpi: 192
+Xft.antialias: 1
+Xft.hinting: 1
+Xft.rgba: rgb
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+*.foreground:     #FEFEFA
+*.background:     #111111
+*.cursorColor:    #FEFEFA
+*.highlightColor: #bfbfff
+
+! Black
+*.color0:         #1f1f1f
+*.color8:         #4f4f7f
+
+! Red
+*.color1:         #fc5078
+*.color9:         #fc5078
+
+! Yellow
+*.color2:         #f9ef61
+*.color10:        #f9ef61
+
+! Green
+*.color3:         #69f961
+*.color11:        #69f961
+
+! Blue
+*.color4:         #64c7fc
+*.color12:        #64c7fc
+
+! Magenta
+*.color5:         #e572c8
+*.color13:        #e572c8
+
+! Cyan
+*.color6:         #50fcce
+*.color14:        #50fcce
+
+! White
+*.color7:         #FEFEFA
+*.color15:        #FEFEFA
