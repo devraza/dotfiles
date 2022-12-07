@@ -1,0 +1,92 @@
+configuration{
+    modi: "run,drun";
+    lines: 2;
+    font: "Iosevka 12.3";
+    terminal: "alacritty";
+    drun-display-format: " {name} ";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-drun: " Apps ";
+    display-run: " Run ";
+    sidebar-mode: true;
+}
+
+@theme "graphite"
+
+element-text, element-icon , mode-switcher {
+    background-color: inherit;
+    text-color:       inherit;
+}
+
+window {
+    width: 1200px;
+    height: 600px;
+    border-color: @border;
+    background-color: @base;
+}
+
+mainbox {
+    padding: 15px;
+    background-color: @base;
+}
+
+inputbar {
+    children: [prompt,entry];
+    background-color: @base;
+    border-radius: 0px;
+    padding: 10px;
+}
+
+prompt {
+    background-color: @base;
+    padding: 20px;
+    text-color: @foam;
+    border-radius: 10px;
+}
+
+textbox-prompt-colon {
+    expand: false;
+    str: ":";
+}
+
+entry {
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    text-color: @fg-col;
+    background-color: @base;
+}
+
+listview {
+    padding: 6px 0px 0px;
+    columns: 2;
+    background-color: @base;
+}
+
+element {
+    padding: 5;
+    background-color: @base;
+    text-color: @fg-col;
+}
+
+element selected {
+    background-color:  @surface;
+    text-color: @fg-col2;
+}
+
+mode-switcher {
+    spacing: 0;
+}
+
+button {
+    padding: 6px;
+    background-color: @surface;
+    text-color: @grey;
+    vertical-align: 0.5; 
+    horizontal-align: 0.5;
+}
+
+button selected {
+  background-color: @base;
+  text-color: @foam;
+}

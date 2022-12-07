@@ -1,0 +1,15 @@
+[".config/awesome"]
+	type = "git-repo"
+	url = "https://github.com/devraza/aweful"
+
+[".config/awesome/lain"]
+	type = "git-repo"
+	url = "https://github.com/lcpz/lain"
+
+[".config/awesome/modules/bling"]
+	type = "git-repo"
+	url = "https://github.com/BlingCorp/bling"
+
+[".emacs.d"]
+	type = "git-repo"
+	url = "https://github.com/devraza/dianciemacs"

@@ -1,0 +1,49 @@
+schemes:
+  graphite: &graphite
+    # Default colors
+    primary:
+      background: '#111111'
+      foreground: '#FEFEFA'
+
+    # Normal colors
+    normal:
+      black:   '#111111'
+      red:     '#fc5078'
+      green:   '#69f961'
+      yellow:  '#f9ef61'
+      blue:    '#64c7fc'
+      magenta: '#e572c8'
+      cyan:    '#50fcce'
+      white:   '#FEFEFA'
+
+    # Bright colors
+    bright:
+      black:   '#7B6B97'
+      red:     '#fc5078'
+      green:   '#69f961'
+      yellow:  '#f9ef61'
+      blue:    '#64c7fc'
+      magenta: '#e572c8'
+      cyan:    '#50fcce'
+      white:   '#FEFEFA'
+
+# Font settings
+font:
+    normal:
+        family: Iosevka Nerd Font
+
+# Window settings
+window:
+    padding:
+        x: 20
+        y: 20
+
+# Change cursor style
+cursor:
+    style:
+        blinking: On
+    thickness: 0.1
+    blink_timeout: 0
+
+# Graphite colourscheme
+colors: *graphite

@@ -1,0 +1,8 @@
+encryption = "age"
+[age]
+	symmetric = true
+	passphrase = true
+
+[git]
+	autoCommit = true
+	autoPush = true
