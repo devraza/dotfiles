@@ -1,5 +1,5 @@
-encryption = "age"
-[age]
+encryption = "gpg"
+[gpg]
 	symmetric = true
 	passphrase = true
 
