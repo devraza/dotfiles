@@ -1,6 +1,7 @@
 [user]
 	name = Muhammad Nauman Raza
 	signingkey = A9A36C429C9CAE31
+	signingkey = 62D07698363B5010  
 	email = thedevraza@proton.me
 
 [commit]

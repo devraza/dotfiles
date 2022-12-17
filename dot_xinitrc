@@ -15,4 +15,4 @@ fi
 
 redshift -l 52.486244:-1.890401 &
 
-dbus-launch --autolaunch=$(cat /var/lib/dbus/machine-id) awesome
+dbus-launch awesome

@@ -30,7 +30,7 @@ schemes:
 # Font settings
 font:
     normal:
-        family: Iosevka Nerd Font
+        family: Iosevka 
 
 # Window settings
 window:

@@ -20,22 +20,21 @@ element-text, element-icon , mode-switcher {
 }
 
 window {
-    width: 1200px;
-    height: 600px;
+    width: 25%;
+    height: 30%;
     border-color: @border;
     background-color: @base;
 }
 
 mainbox {
-    padding: 15px;
+    padding: 0.7%;
     background-color: @base;
 }
 
 inputbar {
     children: [prompt,entry];
     background-color: @base;
-    border-radius: 0px;
-    padding: 10px;
+    padding: 0.5%;
 }
 
 prompt {
@@ -51,20 +50,18 @@ textbox-prompt-colon {
 }
 
 entry {
-    padding: 10px;
-    margin: 10px 0px 0px 0px;
+    margin: 1.85% 0.8%;
     text-color: @fg-col;
     background-color: @base;
 }
 
 listview {
-    padding: 6px 0px 0px;
     columns: 2;
     background-color: @base;
 }
 
 element {
-    padding: 5;
+    padding: 0.45%;
     background-color: @base;
     text-color: @fg-col;
 }
@@ -79,7 +76,7 @@ mode-switcher {
 }
 
 button {
-    padding: 6px;
+    padding: 0.9%;
     background-color: @surface;
     text-color: @grey;
     vertical-align: 0.5; 
