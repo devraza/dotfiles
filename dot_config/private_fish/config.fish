@@ -37,10 +37,6 @@ alias .2 'cd ../..'
 alias .3 'cd ../../..'
 alias .4 'cd ../../../..'
 
-# Work around an issue with pipewire
-alias start-pipewire 'XDG_RUNTIME_DIR=/tmp/$USER-runtime-dir pipewire'
-alias start-pipewire-pulse 'XDG_RUNTIME_DIR=/tmp/$USER-runtime-dir pipewire-pulse'
-
 # XBPS Aliases
 alias xbps-i 'sudo xbps-install'
 alias xbps-isyu 'sudo xbps-install -Syu'
