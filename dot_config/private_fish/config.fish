@@ -1,5 +1,6 @@
 if status is-interactive
    starship init fish | source
+   fish_config theme choose "Graphite"
 end
 
 # Set Editor
