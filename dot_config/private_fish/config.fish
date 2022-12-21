@@ -12,7 +12,7 @@ set QT_AUTO_SCREEN_SCALE_FACTOR 1
 # set GDK_DPI_SCALE 0.5
 
 # Create XDG_RUNTIME_DIR
-set XDG_RUNTIME_DIR "/tmp/$USER-runtime-dir"
+set XDG_RUNTIME_DIR "/tmp/runtime-$USER"
 mkdir -p $XDG_RUNTIME_DIR
 chmod 0700 $XDG_RUNTIME_DIR
 
