@@ -7,7 +7,7 @@ schemes:
 
     # Normal colors
     normal:
-      black:   '#111111'
+      black:   '#4f4f6f'
       red:     '#fc5078'
       green:   '#69f961'
       yellow:  '#f9ef61'
@@ -18,7 +18,7 @@ schemes:
 
     # Bright colors
     bright:
-      black:   '#7B6B97'
+      black:   '#4f4f6f'
       red:     '#fc5078'
       green:   '#69f961'
       yellow:  '#f9ef61'
